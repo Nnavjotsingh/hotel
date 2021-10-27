@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '../../../../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFC5925');</script>
+    <!-- End Google Tag Manager -->
+    <title>Hotel Alpha - Booking and Reservation Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/sandybrown.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFC5925" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="page_loader"></div>
+
+    <!-- Option Panel -->
+    <div class="option-panel option-panel-collased">
+        <h2>Change Color</h2>
+        <div class="color-plate sandybrown-plate" data-color="sandybrown"></div>
+        <div class="color-plate blue-light-2-plate" data-color="blue-light-2"></div>
+        <div class="color-plate yellow-plate" data-color="yellow"></div>
+        <div class="color-plate red-plate" data-color="red"></div>
+        <div class="color-plate green-light-plate" data-color="green-light"></div>
+        <div class="color-plate purple-plate" data-color="purple"></div>
+        <div class="color-plate blue-plate" data-color="blue"></div>
+        <div class="color-plate peru-plate" data-color="peru"></div>
+        <div class="color-plate green-plate" data-color="green"></div>
+        <div class="color-plate blue-light-plate" data-color="blue-light"></div>
+        <div class="color-plate green-light-2-plate" data-color="green-light-2"></div>
+        <div class="color-plate royalblue-plate" data-color="royalblue"></div>
+        <div class="setting-button">
+            <i class="fa fa-gear"></i>
+        </div>
+    </div>
+    <!-- /Option Panel -->
+
+    <!-- Top header start -->
+    <!-- <header class="top-header hidden-xs" id="top"> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-8 col-md-8 col-sm-8"> -->
+                    <!-- <div class="list-inline">
+                        <a href="tel:+55-4XX-634-7071"><i class="fa fa-phone"></i>Need Support? +55-4XX-634-7071</a>
+                        <a href="tel:info@themevessel.com"><i class="fa fa-envelope"></i>info@themevessel.com</a>
+                    </div> -->
+                <!-- </div> -->
+                <!-- <div class="col-lg-4 col-md-4 col-sm-4">
+                    <ul class="top-social-media pull-right">
+                        <li>
+                            <a href="login.html" class="sign-in"><i class="fa fa-sign-in"></i> Login</a>
+                        </li>
+                        <li>
+                            <a href="signup.html" class="sign-in"><i class="fa fa-user"></i> Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    <!-- </header> -->
+    <!-- Top header end -->
+
+    <!-- Main header start -->
+    <header class="main-header main-header-4">
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" id="drawer">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a href="index.html" class="logo">
+                        <img src="img/logos/logo.png" alt="logo">
+                    </a> -->
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="dropdown active">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Home<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home 1</a></li>
+                                <li><a href="index-2.html">Home 2</a></li>
+                                <li><a href="index-3.html">Home 3</a></li>
+                                <li><a href="index-4.html">Home 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Rooms<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="rooms-col-1.html">1 Column</a></li>
+                                <li><a href="rooms-col-2.html">2 Column</a></li>
+                                <li><a href="rooms-col-3.html">3 Column</a></li>
+                                <li><a href="rooms-details.html">Rooms Details</a></li>
+                                <li><a href="rooms-details-2.html">Rooms Details 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Pages<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a>Gallery</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="gallery-3column.html">Gallery 3 Column</a></li>
+                                        <li><a href="gallery-4column.html">Gallery 4 Column</a></li>
+                                        <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a>About Us</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="about-2.html">About Us 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="booking-system.html">Booking System</a></li>
+                                <li class="dropdown-submenu">
+                                    <a>Staff</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="staff.html">Staff</a></li>
+                                        <li><a href="staff-2.html">Staff 2</a></li>
+                                        <li><a href="staff-3.html">Staff 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a>Events</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="events.html">Events</a></li>
+                                        <li><a href="events-right-sidebar.html">Events Right Sidebar</a></li>
+                                        <li><a href="events-details.html">Events Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="signup.html">Signup</a></li>
+                                <li><a href="forgot-password.html">Forgot Password</a></li>
+                                <li><a href="404.html">404 Error</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Contact<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact-2.html">Contact 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" data-submenu="">
+                                Blog<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog-full-width.html">Blog Fullwidth</a></li>
+                                <li><a href="blog-creative.html">Blog Creative</a></li>
+                                <li><a href="blog-details.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a id="header-search-btn" class="btn-navbar search-icon"><i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-search animated fadeInDown">
+                <form class="form-inline">
+                    <input type="text" class="form-control" id="searchKey" placeholder="Search...">
+                    <div class="search-btns">
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- Main header end -->
+
+    <!-- Sidenav start -->
+    <nav id="sidebar" class="nav-sidebar sidebar-heading-section">
+        <!-- Close btn-->
+        <div id="dismiss">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="sidebar-inner">
+            <div class="sidebar-logo">
+                <img src="img/logos/logo.png" alt="sidebarlogo">
+            </div>
+            <div class="sidebar-navigation">
+                <h3 class="heading">Pages</h3>
+                <ul class="menu-list">
+                    <li><a href="#" class="active pt0">Index <em class="fa fa-chevron-down"></em></a>
+                        <ul>
+                            <li><a href="index.html">Index 1</a></li>
+                            <li><a href="index-2.html">Index 2</a></li>
+                            <li><a href="index-3.html">Index 3</a></li>
+                            <li><a href="index-4.html">Index 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Rooms <em class="fa fa-chevron-down"></em></a>
+                        <ul>
+                            <li><a href="rooms-col-1.html">1 Column</a></li>
+                            <li><a href="rooms-col-2.html">2 Column</a></li>
+                            <li><a href="rooms-col-3.html">3 Column</a></li>
+                            <li><a href="rooms-details.html">Rooms Details</a></li>
+                            <li><a href="rooms-details-2.html">Rooms Details 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pages <em class="fa fa-chevron-down"></em></a>
+                        <ul>
+                            <li>
+                                <a href="#">About Us<em class="fa fa-chevron-down"></em></a>
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="about-2.html">About Us 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Gallery<em class="fa fa-chevron-down"></em></a>
+                                <ul>
+                                    <li><a href="gallery-3column.html">Gallery 3 Column</a></li>
+                                    <li><a href="gallery-4column.html">Gallery 4 Column</a></li>
+                                    <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="booking-system.html">Booking System</a></li>
+                            <li>
+                                <a href="#">Staff <em class="fa fa-chevron-down"></em></a>
+                                <ul>
+                                    <li><a href="staff.html">Staff</a></li>
+                                    <li><a href="staff-2.html">Staff 2</a></li>
+                                    <li><a href="staff-3.html">Staff 3</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Events <em class="fa fa-chevron-down"></em></a>
+                                <ul>
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="events-right-sidebar.html">Events Right Sidebar</a></li>
+                                    <li><a href="events-details.html">Events Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="forgot-password.html">Forgot Password</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact <em class="fa fa-chevron-down"></em></a>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact-2.html">Contact 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog <em class="fa fa-chevron-down"></em></a>
+                        <ul>
+                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="blog-full-width.html">Blog Fullwidth</a></li>
+                            <li><a href="blog-creative.html">Blog Creative</a></li>
+                            <li><a href="blog-details.html">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="get-in-touch">
+                <h3 class="heading">Get in Touch</h3>
+                <div class="sidebar-contact-info">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="body-info">
+                        <a href="tel:0477-0477-8556-552">0477 8556 552</a>
+                    </div>
+                </div>
+                <div class="sidebar-contact-info">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="body-info">
+                        <a href="#">info@themevessel.com</a>
+                    </div>
+                </div>
+                <div class="sidebar-contact-info mb-0">
+                    <div class="icon">
+                        <i class="fa fa-fax"></i>
+                    </div>
+                    <div class="body-info">
+                        <a href="tel:0477-0477-8556-552">0266 8556 787</a>
+                    </div>
+                </div>
+            </div>
+            <div class="get-social">
+                <h3 class="heading">Get Social</h3>
+                <a href="#" class="facebook-bg">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#" class="twitter-bg">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="google-bg">
+                    <i class="fa fa-google"></i>
+                </a>
+                <a href="#" class="linkedin-bg">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidenav end -->
+
+    <!-- Banner start -->
+    <div class="banner banner-2">
+        <div class="banner-inner">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="h-100 w-100" src="img/banner/banner-slider-1.jpg" alt="banner-slider-3">
+                        <div class="carousel-caption banner-slider-inner banner-top-align">
+                            <div class="banner-content text-center">
+                                <div class="max-area2">
+                                    <h1 data-animation="animated fadeInDown delay-05s">Welcome To Hotel Alpha</h1>
+                                    <p data-animation="animated fadeInUp delay-1s">Lorem ipsum dolor sit amet,
+                                        conconsectetuer adipiscing elit Lorem ipsum dolor sit amet, conconsectetuer</p>
+                                    <a class="btn-2" href="#" data-animation="animated fadeInUp delay-15s">Get Started
+                                        Now</a>
+                                    <a class="btn-1" href="#" data-animation="animated fadeInUp delay-15s"><span>Learn
+                                            More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="h-100 w-100" src="img/banner/banner-slider-3.jpg" alt="banner-slider-2">
+                        <div class="carousel-caption banner-slider-inner banner-top-align">
+                            <div class="banner-content text-center">
+                                <div class="max-area2">
+                                    <h1 data-animation="animated fadeInDown delay-05s">Best Place To Find Room</h1>
+                                    <p data-animation="animated fadeInUp delay-05s">Lorem ipsum dolor sit amet,
+                                        conconsectetuer adipiscing elit Lorem ipsum dolor sit amet, conconsectetuer</p>
+                                    <a class="btn-2" href="#" data-animation="animated fadeInUp delay-15s">Get Started
+                                        Now</a>
+                                    <a class="btn-1" href="#" data-animation="animated fadeInUp delay-15s"><span>Learn
+                                            More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="h-100 w-100" src="img/banner/banner-slider-2.jpg" alt="banner-slider-1">
+                        <div class="carousel-caption banner-slider-inner banner-top-align">
+                            <div class="banner-content text-center">
+                                <div class="max-area2">
+                                    <h1 data-animation="animated fadeInDown delay-05s">Best Place For Relux</h1>
+                                    <p data-animation="animated fadeInUp delay-1s">Lorem ipsum dolor sit amet,
+                                        conconsectetuer adipiscing elit Lorem ipsum dolor sit amet, conconsectetuer</p>
+                                    <a class="btn-2" href="#" data-animation="animated fadeInUp delay-15s">Get Started
+                                        Now</a>
+                                    <a class="btn-1" href="#" data-animation="animated fadeInUp delay-15s"><span>Learn
+                                            More</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="slider-mover-left" aria-hidden="true">
+                        <i class="fa fa-angle-left"></i>
+                    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="slider-mover-right" aria-hidden="true">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Banner end -->
+
+    <!-- Search area box 2 start -->
+    <div class="search-area-box-2 search-area-box-6">
+        <div class="container">
+            <div class="search-contents">
+                <form method="GET">
+                    <div class="row search-your-details">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="search-your-rooms mt-20">
+                                <h3 class="hidden-xs hidden-sm">Search</h3>
+                                <h2 class="hidden-xs hidden-sm">Your <span>Rooms</span></h2>
+                                <h2 class="hidden-lg hidden-md">Search Your <span>Rooms</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <input type="text" class="btn-default datepicker" placeholder="Check In">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <input type="text" class="btn-default datepicker" placeholder="Check Out">
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <select class="selectpicker search-fields form-control-2" name="room">
+                                            <option>Room</option>
+                                            <option>Single Room</option>
+                                            <option>Double Room</option>
+                                            <option>Deluxe Room</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <select class="selectpicker search-fields form-control-2" name="adults">
+                                            <option>Adult</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <select class="selectpicker search-fields form-control-2" name="children">
+                                            <option>Child</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-6 col-pad-3">
+                                    <div class="form-group">
+                                        <button class="btn-md btn-theme btn-4 btn-7 btn-block">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Search area box 2 end -->
+
+    <!-- Hotel alpha start -->
+    <div class="hotel-alpha content-area-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 wow fadeInLeft delay-04s">
+                    <div class="text">
+                        <h5>Hotel <span>Bayview</span></h5>
+                        <h1>Welcome To Hotel Alpha</h1>
+                        <p>Duis vel nisl lacinia, facilisis in, consectetur leon vestibulum et ullamcorper tortor leon
+                            placerat mauris tincidunt ut non velit faucibus nam a
+                            pretium sapien nunc quis congue purus nunc feugiat nec purus a ultricies suspendisse in
+                            fringilla est sodales dui, non mattis tortor volutpat vitae.</p>
+                        <br>
+                        <a class="btn-1 comon-btn" href="blog-details.html"><span>View Details</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInRight delay-04s">
+                    <img src="img/b.jpg" alt="a" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hotel alpha end -->
+
+    <!-- Hotel section start -->
+    <div class="content-area hotel-section bg-grey">
+        <div class="overlay">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1>Our Best Rooms</h1>
+                    <p>These best rooms chosen by our customers</p>
+                </div>
+                <div class="row wow fadeInUp delay-04s">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-1.jpg" alt="photo" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Luxury Room</a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-2.jpg" alt="phot" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Double Room</a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-4.jpg" alt="photo" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Single Room</a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-3.jpg" alt="photo" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Single Room </a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-5.jpg" alt="phot" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Luxury Room</a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hotel-box">
+                            <!-- Photo thumbnail -->
+                            <div class="photo-thumbnail">
+                                <div class="photo">
+                                    <img src="img/room/img-8.jpg" alt="photo" class="img-responsive">
+                                    <a href="rooms-details.html">
+                                        <span class="blog-one__plus"></span>
+                                    </a>
+                                </div>
+                                <div class="pr">
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full"></i>
+                                    </div>
+                                    $567.99/Night
+                                </div>
+                            </div>
+                            <!-- Detail -->
+                            <div class="detail clearfix">
+                                <h3>
+                                    <a href="rooms-details.html">Double Room</a>
+                                </h3>
+                                <p class="location">
+                                    <a href="rooms-details.html">
+                                        <i class="fa fa-map-marker"></i>123 Kathal St. Tampa City,
+                                    </a>
+                                </p>
+                                <div class="fecilities">
+                                    <ul>
+                                        <li>
+                                            <i class="flaticon-bed"></i> Beds
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-air-conditioning"></i>
+                                            AC
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-graph-line-screen"></i>
+                                            TV
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-weightlifting"></i>
+                                            GYM
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-wifi-connection-signal-symbol"></i>
+                                            Wi-fi
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-parking"></i>
+                                            Parking
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hotel section end -->
+
+    <!-- Our facilties section start -->
+    <div class="our-facilties-section content-area-5">
+        <div class="overlay">
+            <div class="container">
+                <!-- Main title -->
+                <div class="main-title">
+                    <h1>Our Facilties</h1>
+                    <p>Check out our hotel facilties </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-school-call-phone-reception"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">24-hour Reception</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-room-service"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">Room Service</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-graph-line-screen"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">Flat Screen TV</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-weightlifting"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">Gym</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-parking"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">Free Parking</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+                        <div class="services-box-2 media">
+                            <div class="media-left">
+                                <i class="flaticon-wifi-connection-signal-symbol"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3><a href="#">Free Wi-Fi</a></h3>
+                                <p>Lorem ipsum dolor sit amet, conser adipisicing elit. Numquam deleniti amet quia
+                                    voluptate laboriosam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our facilties section end -->
+
+    <!-- News popular testimonials start -->
+    <div class="news-popular-testimonials-section content-area-6 bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft delay-04s">
+                    <div class="recent-news hidden-mb-60">
+                        <!-- Main title -->
+                        <div class="main-title">
+                            <h1>Recent Events</h1>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object" src="img/room/small-img.jpg" alt="small-img">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="events-details.html">Wedding David & karen</a>
+                                </h3>
+                                <p>From 80 $ per night</p>
+                                <p><i class="fa fa-calendar"></i>18/10/2020</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object" src="img/room/small-img-2.jpg" alt="small-img-2">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="events-details.html">Pool Party in summer</a>
+                                </h3>
+                                <p>From 80 $ per night</p>
+                                <p><i class="fa fa-calendar"></i>18/10/2020</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object" src="img/room/small-img-3.jpg" alt="small-img-3">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="events-details.html">Festival Music Electronic</a>
+                                </h3>
+                                <p>From 80 $ per night</p>
+                                <p><i class="fa fa-calendar"></i>18/10/2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 wow fadeInUp delay-04s">
+                    <!-- Main title -->
+                    <div class="main-title">
+                        <h1>Testimonials</h1>
+                    </div>
+                    <!-- Testimonial 3 start -->
+                    <div class="testimonials-3 hidden-mb-60">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center">
+                                    <div id="carousel-custom3" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item content active clearfix">
+                                                <div class="item-inner">
+                                                    <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Maecenas in
+                                                        pulvinar neque. Nulla finibus lobortis pulvinar. Donec a conser
+                                                        nulla. Nulla posuere</p>
+                                                    <div class="testimonials-avatar">
+                                                        <img src="img/testimonial/avatar-2.jpg" alt="avatar-2">
+                                                    </div>
+                                                    <div class="author-name">
+                                                        Karen Paran
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item content clearfix">
+                                                <div class="item-inner">
+                                                    <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Maecenas in
+                                                        pulvinar neque. Nulla finibus lobortis pulvinar. Donec a conser
+                                                        nulla. Nulla posuere</p>
+                                                    <div class="testimonials-avatar">
+                                                        <img src="img/testimonial/avatar-3.jpg" alt="avatar-3">
+                                                    </div>
+                                                    <div class="author-name">
+                                                        David Jackson
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item content clearfix">
+                                                <div class="item-inner">
+                                                    <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Maecenas in
+                                                        pulvinar neque. Nulla finibus lobortis pulvinar. Donec a conser
+                                                        nulla. Nulla posuere</p>
+                                                    <div class="testimonials-avatar">
+                                                        <img src="img/testimonial/avatar-4.jpg" alt="avatar-4">
+                                                    </div>
+                                                    <div class="author-name">
+                                                        Teseira Rony
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Controls -->
+                                        <div class="btn-slider">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carousel-custom3" data-slide-to="0" class=""></li>
+                                                <li data-target="#carousel-custom3" data-slide-to="1" class="active">
+                                                </li>
+                                                <li data-target="#carousel-custom3" data-slide-to="2"></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 end -->
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12 hidden-sm wow fadeInRight delay-04s">
+                    <div class="gallery-section">
+                        <!-- Main title -->
+                        <div class="main-title">
+                            <h1>Popular Places</h1>
+                        </div>
+                        <!--  Photo gallery start -->
+                        <div class="photo-gallery simple-slider">
+                            <div id="carousel-custom2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-outer">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item">
+                                            <img src="img/popular-places/img-1.jpg" class="thumb-preview"
+                                                alt="Chevrolet Impala">
+                                        </div>
+                                        <div class="item active">
+                                            <img src="img/popular-places/img-2.jpg" class="thumb-preview"
+                                                alt="Chevrolet Impala">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/popular-places/img-3.jpg" class="thumb-preview"
+                                                alt="Chevrolet Impala">
+                                        </div>
+                                    </div>
+                                    <!-- Controls -->
+                                    <div class="btn-slider btn-slider-2">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel-custom2" data-slide-to="0" class=""></li>
+                                            <li data-target="#carousel-custom2" data-slide-to="1" class="active"></li>
+                                            <li data-target="#carousel-custom2" data-slide-to="2"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  Photo gallery end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- News popular testimonials end -->
+
+    <!-- staff section start -->
+    <div class="content-area staff-section">
+        <div class="container">
+            <!-- Main title -->
+            <div class="main-title">
+                <h1><span>Our</span> Staff</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft delay-04s">
+                    <div class="row staff-box-2">
+                        <div class="col-lg-5 col-md-12 col-sm-12 col-pad">
+                            <div class="photo">
+                                <img src="img/staff/staff-1.jpg" alt="staff" class="img-responsive">
+                                <div class="overlay">
+                                    <div class="border">
+                                        <div class="icon-holder">
+                                            <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
+                                        </div>
+                                        <div class="icon-holder">
+                                            <a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                        <div class="icon-holder">
+                                            <a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-sm-12 col-pad bg align-self-center">
+                            <div class="detail">
+                                <h4>
+                                    <a href="#">Carolyn Stone</a>
+                                </h4>
+                                <h5>Hotel Developer</h5>
+                                <div class="contact">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-map-marker"></i><a>44 New Design Street,</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i><a
+                                                href="mailto:info@themevessel.com">info@themevessel.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i><a href="tel:+554XX-634-7071"> +55
+                                                4XX-634-7071</a>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fax"></i><a href="tel:+554XX-634-7071"> +01
+                                                4XX-634-6582</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight delay-04s">
+                    <div class="row staff-box-2">
+                        <div class="col-lg-5 col-md-12 col-sm-12 col-pad">
+                            <div class="photo">
+                                <img src="img/staff/staff-2.jpg" alt="staff" class="img-responsive">
+                                <div class="overlay">
+                                    <div class="border">
+                                        <div class="icon-holder">
+                                            <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
+                                        </div>
+                                        <div class="icon-holder">
+                                            <a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a>
+                                        </div>
+                                        <div class="icon-holder">
+                                            <a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-sm-12 col-pad bg align-self-center">
+                            <div class="detail">
+                                <h4>
+                                    <a href="#">Emma Connor</a>
+                                </h4>
+                                <h5>Hotel Director</h5>
+                                <div class="contact">
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-map-marker"></i><a>44 New Design Street,</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i><a
+                                                href="mailto:info@themevessel.com">info@themevessel.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i><a href="tel:+554XX-634-7071"> +55
+                                                4XX-634-7071</a>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fax"></i><a href="tel:+554XX-634-7071"> +01
+                                                4XX-634-6582</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Teachers section end -->
+
+    <!-- Counters strat -->
+    <div class="counters">
+        <div class="main-title-3">
+            <h1>Hotel Statistics</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 bordered-right wow fadeInLeft delay-04s">
+                    <div class="counter-box">
+                        <h1 class="counter">967</h1>
+                        <h5>Guest Stay</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 bordered-right wow fadeInLeft delay-04s">
+                    <div class="counter-box">
+                        <h1 class="counter">577</h1>
+                        <h5>Book Room</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 bordered-right wow fadeInRight delay-04s">
+                    <div class="counter-box">
+                        <h1 class="counter">1398</h1>
+                        <h5>Member Stay</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="counter-box counter-box-2 wow fadeInRight delay-04s">
+                        <h1 class="counter">376</h1>
+                        <h5>Meals Served</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counters end -->
+
+    <!-- Blog section start -->
+    <div class="blog-section content-area">
+        <div class="container">
+            <!-- Main title -->
+            <div class="main-title">
+                <h1>Our Blog</h1>
+                <p>Check out some recent news posts.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft delay-04s">
+                    <div class="blog-1">
+                        <div class="blog-image">
+                            <img src="img/room/img-2.jpg" alt="img-2" class="img-responsive">
+                            <div class="profile-user">
+                                <img src="img/avatar/avatar-1.jpg" alt="user">
+                            </div>
+                            <div class="date-box">
+                                <span>09</span>Sep
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="post-meta clearfix">
+                                <ul>
+                                    <li>
+                                        <strong><a href="#">By: Auro Navanth</a></strong>
+                                    </li>
+                                    <li class="float-right mr-0"><a href="#"><i class="fa fa-commenting-o"></i></a>205
+                                    </li>
+                                    <li class="float-right"><a href="#"><i class="fa fa-calendar"></i></a>328</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                <a href="blog-details.html">Standard Post Format Title</a>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp delay-04s">
+                    <div class="blog-1">
+                        <div class="blog-image">
+                            <img src="img/room/img-6.jpg" alt="blog-1" class="img-responsive">
+                            <div class="profile-user">
+                                <img src="img/avatar/avatar-2.jpg" alt="user">
+                            </div>
+                            <div class="date-box">
+                                <span>06</span>Sep
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="post-meta clearfix">
+                                <ul>
+                                    <li>
+                                        <strong><a href="#">By: Navanth Auro</a></strong>
+                                    </li>
+                                    <li class="float-right mr-0"><a href="#"><i class="fa fa-commenting-o"></i></a>205
+                                    </li>
+                                    <li class="float-right"><a href="#"><i class="fa fa-calendar"></i></a>328</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                <a href="blog-details.html">Alpha Hotel Pars Studiorum</a>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInRight delay-04s">
+                    <div class="blog-1">
+                        <div class="blog-image">
+                            <img src="img/room/img-3.jpg" alt="blog-1" class="img-responsive">
+                            <div class="profile-user">
+                                <img src="img/avatar/avatar-3.jpg" alt="user">
+                            </div>
+                            <div class="date-box">
+                                <span>14</span>Sep
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="post-meta clearfix">
+                                <ul>
+                                    <li>
+                                        <strong><a href="#">By: Tanzim</a></strong>
+                                    </li>
+                                    <li class="float-right mr-0"><a href="#"><i class="fa fa-commenting-o"></i></a>205
+                                    </li>
+                                    <li class="float-right"><a href="#"><i class="fa fa-calendar"></i></a>328</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                <a href="blog-details.html">Best Night Photo at Alpha Hotel </a>
+                            </h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog section end -->
+
+    <!-- Partners block start -->
+    <div class="partners-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Brands $ Partners</h3>
+                </div>
+                <div class="col-md-12">
+                    <div class="carousel our-partners slide" id="ourPartners">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-12 col-sm-6 col-md-3 partner-box">
+                                    <a href="#">
+                                        <img src="img/brand/brand-1.png" alt="brand">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-3 partner-box">
+                                    <a href="#">
+                                        <img src="img/brand/brand-2.png" alt="brand">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-3 partner-box">
+                                    <a href="#">
+                                        <img src="img/brand/brand-3.png" alt="brand">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-3 partner-box">
+                                    <a href="#">
+                                        <img src="img/brand/brand-4.png" alt="brand">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-6 col-md-3 partner-box">
+                                    <a href="#">
+                                        <img src="img/brand/brand-5.png" alt="brand">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#ourPartners" data-slide="prev"><i
+                                class="fa fa-chevron-left icon-prev"></i></a>
+                        <a class="right carousel-control" href="#ourPartners" data-slide="next"><i
+                                class="fa fa-chevron-right icon-next"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partners block end -->
+
+    <!-- Footer start -->
+    <footer class="main-footer clearfix">
+        <div class="container">
+            <!-- Footer info-->
+            <div class="footer-info">
+                <div class="row">
+                    <!-- About us -->
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Contact Us</h1>
+                            </div>
+                            <ul class="personal-info">
+                                <li>
+                                    <i class="fa fa-map-marker"></i>
+                                    Address: Rajrana,
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    Email:<a href="Nnavjotsidhu@gmail.com">Nnavjotsidhu@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    Phone: <a href="tel:+91 9780674894">9780674894</a>
+                                </li>
+                                <!-- <li>
+                                    <i class="fa fa-fax"></i>
+                                    Fax: +0477 85X6 552
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>Booking</h1>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="rooms-col-3.html">Rooms & Suites</a>
+                                </li>
+                                <li>
+                                    <a href="rooms-details.html">Restaurant</a>
+                                </li>
+                                <li>
+                                    <a href="rooms-col-2.html">Hotel</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Facilties</a>
+                                </li>
+                                <li>
+                                    <a href="rooms-col-3.html">Rooms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <div class="main-title-2">
+                                <h1>About</h1>
+                            </div>
+                            <ul class="links">
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="blog-right-sidebar.html">Blog & Events</a>
+                                </li>
+                                <li>
+                                    <a href="booking-system.html">Booking</a>
+                                </li>
+                                <li>
+                                    <a href="gallery-3column.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-item newsletter">
+                            <div class="main-title-2">
+                                <h1>Newsletter</h1>
+                            </div>
+                            <div class="newsletter-inner">
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+                                <form class="form-inline" action="#" method="GET">
+                                    <input type="text" class="form-control" id="inlineFormInputName4"
+                                        placeholder="Your Email">
+                                    <button type="submit" class="btn btn-small"><i
+                                            class="fa fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Copy right start -->
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <!-- <p> &copy; 2021 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. All Rights
+                        Reserved.</p> -->
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="clearfix"></div>
+                    <ul class="social-list">
+                        <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copy end right-->
+
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-submenu.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom javascript -->
+
+</body>
+
+</html>
